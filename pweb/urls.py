@@ -9,4 +9,8 @@ urlpatterns = [
     path('sobre', views.sobre,name='sobre'),
     path('contato', views.contato,name='contato'),
     path('ajudar', views.ajudar,name='ajudar'),
+    path('exibiritem/<int:id>', views.exibiritem,name='exibiritem'),
+    path('perfil/<int:id>', views.perfil,name='perfil'),
+    
+
 ]
