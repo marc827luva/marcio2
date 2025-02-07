@@ -21,8 +21,8 @@ def ajudar(request):
 def exibiritem(request,id):
     return render(request,'exibiritem.html',{'id':id})
 
-def perfil(request,id):
-    return render(request,'perfil.html',{'id':id})
+def perfil(request,usuario):
+    return render(request,'perfil.html',{'usuario':usuario})
 
 
 
