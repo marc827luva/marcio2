@@ -18,4 +18,9 @@ urlpatterns = [
     path('dados/',views.dados,name='dados'),
     path('form/',views.form,name='form'),
 
+    path('alunos/listar/',views.listar_alunos,name='listar_alunos'),
+    path('alunos/editar/<int:idice>/',views.editar_aluno,name='editar_aluno'),
+
+
+
 ]
