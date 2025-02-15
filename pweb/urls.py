@@ -16,7 +16,6 @@ urlpatterns = [
     path('agendamento/<int:id>',views.agendamento,name='dia'),
 
     path('dados/',views.dados,name='dados'),
-
     path('form/',views.form,name='form'),
 
 ]
