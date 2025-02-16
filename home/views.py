@@ -77,7 +77,7 @@ def editar_aluno(request, indice):
         aluno['turma'] = request.POST.get("turma")
 
 
-        return redirect('listar_alunos')  # Redireciona para a lista de alunos
+        return render('listar_alunos')  # Redireciona para a lista de alunos
 
 
     context = {
